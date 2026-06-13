@@ -1,0 +1,28 @@
+name: dev_base_url
+description: >-
+  Resolves your dev backend base URL per platform — Android emulator,
+  iOS simulator, web, desktop or physical device — with sync access after
+  a one-time async prepare. Ideal for DI containers.
+version: 0.2.0
+repository: https://github.com/fardcrex/dev_base_url
+issue_tracker: https://github.com/fardcrex/dev_base_url/issues
+topics:
+  - network
+  - base-url
+  - url
+  - emulator
+  - configuration
+
+environment:
+  sdk: ^3.5.0
+  flutter: ">=3.24.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  device_info_plus: ^11.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
